@@ -56,7 +56,7 @@ const questions = [
         message:[
             "Queen Elizabeth I reigned from 1558 - 1603",
             "Queen Elizabeth II reigned from 1952 - 2022",
-            "Queen Victoria who reigned longer than any of her predecessors from 1837 - 1901 which constituted the Victorian Era was quite a trendsetter and you can find her influence in many traditions we have in the Western world today to her including that of the Christmas tree",
+            "Queen Victoria, who reigned from 1837 - 1901 (longer than any of her predecessors), was quite a trendsetter. Many traditions we observe today can be attributed to her",
             "Queen Mary I, more well-known as Bloody Mary, lived from 1553 - 1558"
         ]
     },
@@ -352,6 +352,7 @@ nextBtn.addEventListener("click", () => {
 
 // Start game
 showQuestion();
+
 
 
 
