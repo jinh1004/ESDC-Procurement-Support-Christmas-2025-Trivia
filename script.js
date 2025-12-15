@@ -9,7 +9,7 @@ const questions = [
             "Kurisumasu is the romanization of the Japanese word for Christmas 'クリスマス'",
             "Krismäs is something I made up. Hopefully the umlaut gave it an air of legitimacy though",
             "Weihnachten is the German term for Christmas",
-            "The French term for Christmsd is indeed Noël"
+            "The French term for Christmas is indeed Noël"
         ]
     },
     { 
@@ -352,6 +352,7 @@ nextBtn.addEventListener("click", () => {
 
 // Start game
 showQuestion();
+
 
 
 
