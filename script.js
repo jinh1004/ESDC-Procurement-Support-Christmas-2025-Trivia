@@ -169,13 +169,13 @@ const questions = [
         ]
     },
     { 
-        question: "In Western culture, we're told that naughty childreen will receive coal on Christmas, but in Central European folklore (which can be quite dark), there is another being or beings who might show up in front of them instead of Santa. Who is it/are they?", 
+        question: "In Western culture, we're told that naughty children will receive coal on Christmas, but in Central European folklore (which can be quite dark), there is another being or beings who might show up in front of them instead of Santa. Who is it/are they?", 
         answers: ["Baba Yaga","Krampus","Minotaur","Gnomes"], 
         correct: 1,
         image: "images/Krampus.jpg",
         credit: "Christmas - Britannica",
         message:[
-            "Baba Yaga is a figure from Slavic folklore and is depicted as an old woman with a long nose and lives in a hut that stands on chicken legs. Her tale is not for the faint of heart.",
+            "Baba Yaga is a figure from Slavic folklore and is depicted as an old woman with a long nose and lives in a hut that stands on chicken legs. Her tale is not for the faint of heart",
             "Krampus is a horned, half-goat, half-demon creature who is the counter-part of Saint Nicholas",
             "Minotaur is a mythical creature in Greek mythology with the head of a bull and the body of the man. nothing to do with Christmas",
             "Christmas gnomes are popular in Scandinavian folklores as mischievous protectors of homes and farms that bring luck and gifts. They are generally nice though"
@@ -352,4 +352,5 @@ nextBtn.addEventListener("click", () => {
 
 // Start game
 showQuestion();
+
 
