@@ -104,13 +104,13 @@ const questions = [
         credit: "Homemade Eggnog - Delish",
         message:[
             "Rum is probably the most often used due to its warm and sweet flavor",
-            "Brandy is often addedsfor a rich note that complements the creamy texture",
+            "Brandy is often added for a rich note that complements the creamy texture",
             "Bourbon or Whiskey is a popular addition in the US for a slightly smoky or caramel-like flavor",
             "Gin meanwhile would give it more of a herbal flavor which is not what most people are looking for"
         ]
     },
     { 
-        question: "You, me, and everyone on Earth loves poutine, but it's not the only shining star in Canadian cuisine. Which of the following is now one such dish?", 
+        question: "You, me, and everyone on Earth loves poutine, but it's not the only shining star in Canadian cuisine. Which of the following is NOT a Canadian dish?", 
         answers: ["Croque Monsieur","Butter Tart","Tourtière","Pâté chinois"], 
         correct: 0,
         image: "images/Canadian Food.jpg",
@@ -352,3 +352,4 @@ nextBtn.addEventListener("click", () => {
 
 // Start game
 showQuestion();
+
