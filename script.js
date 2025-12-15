@@ -182,7 +182,7 @@ const questions = [
         ]
     },
     { 
-        question: "In the Chronicle of Narnia's second book/movie 'The Lion, the Witch and the Wardrobe/, what does Santa Clas give Susan & Lucy?", 
+        question: "In the Chronicle of Narnia's second book/movie 'The Lion, the Witch and the Wardrobe/, what does Santa Claus give Susan & Lucy?", 
         answers: ["A bow and arrows & A healing potion","A bow and arrows & Turkish Delights","A healing potion & Turkish Delights","Baklava & Turkish Delights"], 
         correct: 0,
         image: "images/Narnia.jpg",
@@ -352,6 +352,7 @@ nextBtn.addEventListener("click", () => {
 
 // Start game
 showQuestion();
+
 
 
 
