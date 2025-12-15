@@ -64,6 +64,21 @@ h1 {
     transform: scale(1.02);
 }
 
+.answer-status.correct {
+    color: #27ae60; /* green */
+}
+
+.answer-status.incorrect {
+    color: #e74c3c; /* red */
+}
+
+.answer-status {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+
+
 .feedback {
     font-weight: bold;
     font-size: 1.1em;
@@ -79,4 +94,27 @@ h1 {
 
 .feedback ul li {
     margin-bottom: 8px; /* Adds space between bullet points */
+}
+
+/* Image container */
+.image-container {
+    margin: 15px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers image and credit */
+    text-align: center;  /* Centers credit text */
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.image-credit {
+    margin-top: 6px;
+    font-size: 0.8em;
+    color: #7f8c8d; /* subtle gray */
+    font-style: italic;
 }
