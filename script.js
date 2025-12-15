@@ -19,7 +19,7 @@ const questions = [
         image: "images/Santa Claus.jpg",
         credit: "Santa Claus - Christmas Wiki",
         message:[
-            "Saint Nicholas, patron saint of children, sailors, merchants, amonst other groups, was a bishop in the year 270-343 from modern-day Turkey",
+            "Saint Nicholas, patron saint of children, sailors, merchants, among other groups, was a bishop in the year 270-343 from modern-day Turkey",
             "He was famous for gift-giving and helping out the poor and his feast day on December 6th eventually became associated with giving small presents in Europe"
         ]
     },
@@ -31,7 +31,7 @@ const questions = [
         credit: "Why Christmas Trees? Learn About Christmas Trees - The Living Urn",
         message:[
             "Pine, Fir, and Spruce are all considered evergreen trees, meaning they keep their leaves (needles) all year-round",
-            "Oak trees meanwhile are deciduous meaning that they shed their leaves in the fall"
+            "Oak trees meanwhile are deciduous, meaning that they shed their leaves in the fall"
         ]
     },
     { 
@@ -41,34 +41,34 @@ const questions = [
         image: "images/Roman.jpg",
         credit: "Have Yourself a Roman Christmas! Here's How Ancient Holiday Customs Live on Today - artnet",
         message:[
-            "Julius Caesar lives from 100 to 44 BC, a far-cry from 336 AD",
-            "Constantine I also known as Constantine the Great was the first Roman emperor to convert to Christianity",
-            "Constantine II is Constantine I's son who while interesting, is only an option here to confuse",
+            "Julius Caesar lived from 100 to 44 BC, a far cry from 336 AD",
+            "Constantine I, also known as Constantine the Great, was the first Roman emperor to convert to Christianity",
+            "Constantine II is Constantine I's son, who while interesting, is only an option here to confuse",
             "Augustus, also known as Octavian, is the founder of the Roman Empire and thus the first emperor. His rule was from 27 BC to 14 AD and thus also many years prior to Constantine I"
         ]
     },
     { 
-        question: "Christmas trees have been around in Germany for centuries, but it was not popularized in England and North America until 1949 after this famous Queen and her consort were illustrated with one? Who was this pair?", 
+        question: "Christmas trees have been around in Germany for centuries, but it was not popularized in England and North America until 1848 after this famous Queen and her consort were illustrated with one? Who was this pair?", 
         answers: ["Queen Elizabeth I & Prince Robert","Queen Elizabeth II & Prince Philip","Queen Victoria & Prince Albert","Queen Mary I & Philip II of Spain"], 
         correct: 2,
         image: "images/Queen Victoria.jpg",
         credit: "How Queen <hidden due to spoiler> and Prince <hidden due to spoiler> Made Christmas Trees a Holiday Staple - Town & Country",
         message:[
-            "Queen Elizabeth I reigned from 1558 - 1603",
-            "Queen Elizabeth II reigned from 1952 - 2022",
-            "Queen Victoria, who reigned from 1837 - 1901 (longer than any of her predecessors), was quite a trendsetter. Many traditions we observe today can be attributed to her",
-            "Queen Mary I, more well-known as Bloody Mary, lived from 1553 - 1558"
+            "Queen Elizabeth I reigned from 1558-1603",
+            "Queen Elizabeth II reigned from 1952-2022",
+            "Queen Victoria, who reigned from 1837-1901 (longer than any of her predecessors), was quite a trendsetter. Many traditions we observe today can be attributed to her",
+            "Queen Mary I, more well-known as Bloody Mary, lived from 1553-1558"
         ]
     },
     { 
-        question: "Which war saw the Christmas Truce of <Year hidden due to spoilers>, where there were a series of unofficial ceasefires occured and soldiers from opposite sides mingled and sometimes exchanged foods and souvenirs?", 
+        question: "Which war saw the Christmas Truce of <Year hidden due to spoilers>, where there were a series of unofficial ceasefires occurred and soldiers from opposite sides mingled and sometimes exchanged foods and souvenirs?", 
         answers: ["World War I","World War II","The American Revolution","The War of 1812"], 
         correct: 0,
         image: "images/Christmas Truce.jpg",
         credit: "The Christmas Truce - Wikipedia",
         message:[
             "The full name of this event is known as the Christmas Truce of 1914, and occured just a few months after the beginning of WWI which lasted from 1914-1918",
-            "There were a few units who arranged ceasefires in the following years as well, but nowhere as widespread"
+            "There were a few units who arranged ceasefires in the following years as well, but not nearly as widespread"
         ]
     },
     { 
@@ -352,6 +352,7 @@ nextBtn.addEventListener("click", () => {
 
 // Start game
 showQuestion();
+
 
 
 
