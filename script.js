@@ -81,7 +81,7 @@ const questions = [
             "Panettone is a type of sweet Italian bread traditionally enjoyed around Christmas and New Year",
             "Croquembouche originates from France and it is a tower of profiteroles bound together with caramel. It's often used as a showpiece dessert because of its impressive height and elegance",
             "Bûche de Noël or Yule log is also a popular French festive dessert and has origins in the European Yule log tradition",
-            "Baumkuchen is a traditional German cake often known as tree-cake. It's eaten during Christmas, but also weddings and birthdays amongst other occasions. It is commonly also given as gift in Japan"
+            "Baumkuchen is a traditional German cake often known as tree-cake. It's eaten during Christmas, but also weddings and birthdays among other occasions. It is commonly also given as a gift in Japan"
         ]
     },
     { 
@@ -92,13 +92,13 @@ const questions = [
         credit: "66 Christmas Cocktail Recipes To Make Everyone's Spirits Bright - Food Network",
         message:[
             "For the uninitiated, eggnog is a chilled, sweetened, dairy-based beverage made from milk, cream, sugar, and egg. It is often also served with cinnamon or nutmeg on top",
-            "While it's often times served cold, it can also be warmed, like apple cider",
+            "While it's often served cold, it can also be warmed, like apple cider",
             "The reason 'punch' is in the nickname is because it traditionally contains alcohol (again like apple cider) but today, you can find variations without it"
         ]
     },
     { 
         question: "Speaking of putting alcohol in Eggnog though... Which of the following spirit is not usually added to Eggnog?", 
-        answers: ["Whisky (Whiskey in case you're Irish or from the US)","Brandy","Rum","Gin"], 
+        answers: ["Whisky (Whiskey, in case you're Irish or from the US)","Brandy","Rum","Gin"], 
         correct: 3,
         image: "images/Eggnog.jpg",
         credit: "Homemade Eggnog - Delish",
@@ -106,7 +106,7 @@ const questions = [
             "Rum is probably the most often used due to its warm and sweet flavor",
             "Brandy is often added for a rich note that complements the creamy texture",
             "Bourbon or Whiskey is a popular addition in the US for a slightly smoky or caramel-like flavor",
-            "Gin meanwhile would give it more of a herbal flavor which is not what most people are looking for"
+            "Gin, meanwhile, would give it more of an herbal flavor"
         ]
     },
     { 
@@ -116,10 +116,10 @@ const questions = [
         image: "images/Canadian Food.jpg",
         credit: "QUEUES DE CASTOR | BEAVERTAILS (SHERBROOKE) - Uber Eats",
         message:[
-            "Croque Monsieur is a FRENCH sandwich smade with ham and cheese like Gruyère",
-            "Butter Tart is a qintessential Canadian dessert especially in Ontario and across the English-speaking provinces",
+            "Croque Monsieur is a FRENCH sandwich made with ham and cheese like Gruyère",
+            "Butter Tart is a quintessential Canadian dessert especially in Ontario and across the English-speaking provinces",
             "Tourtière is a French-Canadian meat pie that is actually quite popular during Christmas and New Year's",
-            "Pâté chinois is a classic Québécois comfort food similar to a shepard's pie that can really be enjoyed all year round. Despite its name, it's not Chinese"
+            "Pâté chinois is a classic Québécois comfort food similar to a shepherd's pie that can really be enjoyed all year round. Despite its name, it's not Chinese"
         ]
     },
     { 
@@ -135,7 +135,7 @@ const questions = [
         ]
     },
     { 
-        question: "This year, we saw the dishearting news that Hudson's Bay/The Bay is closing its doors. In its heyday though, it has acquired quite a few other department stores. Who is the imposter here?", 
+        question: "This year, we saw the disheartening news that Hudson's Bay/The Bay is closing its doors. In its heyday though, it has acquired quite a few other department stores. Who is the imposter here?", 
         answers: ["Freimans","Morgan's","Harrods","Simpsons"], 
         correct: 2,
         image: "images/Hudson's Bay.jpg",
@@ -146,7 +146,7 @@ const questions = [
         ]
     },
     { 
-        question: "To us Canadians, Christmas and winter go hand-in-hand together, but that's not the case everywhere. Which of the following country is Christmas a summer celebration?", 
+        question: "To us Canadians, Christmas and winter go hand-in-hand together, but that's not the case everywhere. Which of the following countries is Christmas a summer celebration?", 
         answers: ["Sweden","Australia","China","Mexico"], 
         correct: 1,
         image: "images/Australian Christmas.jpg",
@@ -164,7 +164,7 @@ const questions = [
         message:[
             "Yoshinoya is a Japanese fast food chain that specializes in gyūdon also known as beef bowls",
             "Baskin-Robbins is very well established in Korea for their Christmas ice cream cakes, but not in Japan",
-            "Takeshi Okawara who managed the first KFC in Japan overheard some expats saying they missed eating turkey for Christmas and decided to come out with a party bucket in 1974 with the slogan 'Kentucky is Christmas! (ケンタッキーはクリスマス！)",
+            "Takeshi Okawara who managed the first KFC in Japan overheard some expats saying they missed eating turkey for Christmas and decided to introduced a party bucket in 1974 with the slogan 'Kentucky is Christmas! (ケンタッキーはクリスマス！)",
             "Pizza Hut has a massive presence in China and is sometimes associated with Christmas there, but not in Japan"
         ]
     },
@@ -176,13 +176,13 @@ const questions = [
         credit: "Christmas - Britannica",
         message:[
             "Baba Yaga is a figure from Slavic folklore and is depicted as an old woman with a long nose and lives in a hut that stands on chicken legs. Her tale is not for the faint of heart",
-            "Krampus is a horned, half-goat, half-demon creature who is the counter-part of Saint Nicholas",
-            "Minotaur is a mythical creature in Greek mythology with the head of a bull and the body of the man. Nothing to do with Christmas",
-            "Christmas gnomes are popular in Scandinavian folklores as mischievous protectors of homes and farms that bring luck and gifts. They are generally nice though"
+            "Krampus is a horned, half-goat, half-demon creature who is the counterpart of Saint Nicholas",
+            "Minotaur is a mythical creature in Greek mythology with the head of a bull and the body of a man. Nothing to do with Christmas",
+            "Christmas gnomes are popular in Scandinavian folklore as mischievous protectors of homes and farms that bring luck and gifts. They are generally nice though"
         ]
     },
     { 
-        question: "In the Chronicle of Narnia's second book/movie 'The Lion, the Witch and the Wardrobe/, what does Santa Claus give Susan & Lucy?", 
+        question: "In the Chronicle of Narnia's second book/movie 'The Lion, the Witch and the Wardrobe, what does Santa Claus give Susan & Lucy?", 
         answers: ["A bow and arrows & A healing potion","A bow and arrows & Turkish Delights","A healing potion & Turkish Delights","Baklava & Turkish Delights"], 
         correct: 0,
         image: "images/Narnia.jpg",
@@ -193,7 +193,7 @@ const questions = [
         ]
     },
     { 
-        question: "In the Christmas movie 'Elf', what's the name of the main character acted by Will Ferrell?", 
+        question: "In the Christmas movie 'Elf', what's the name of the main character played by Will Ferrell?", 
         answers: ["Hobbs","Eldrin","Patrick","Buddy"], 
         correct: 3,
         image: "images/Elf.jpg",
@@ -203,14 +203,14 @@ const questions = [
         ]
     },
     { 
-        question: "In the another classic Christmas movie, 'Home Alone 2: Lost in New York', our main character Kevin McCallister is finally reunited with his mother, Kate, at this location.", 
+        question: "In another classic Christmas movie, 'Home Alone 2: Lost in New York', our main character Kevin McCallister is finally reunited with his mother, Kate, at this location.", 
         answers: ["Times Square","Central Park","Rockefeller Center","FAO Schwarz"], 
         correct: 2,
         image: "images/Home Alone.jpg",
         credit: "Home Alone 2: Lost in New York - Wikipedia",
         message:[
-            "The Rockefeller Center Christmas Tree is traditionally a Norway spruce measuring at least 75 feet tall and 45 feet in diameter which for the rest of the world is around 23 meters high and 14 meters in diameter. It's not the tallest Christmas tree in the world, but it's certainly a sight to behold",
-            "FAO Schwarz is the real-life toy store that inspired Duncan's Toy Chest in the movie"
+            "The Rockefeller Center Christmas Tree is traditionally a Norway spruce measuring at least 75 feet tall and 45 feet in diameter, which is approximately 23 meters high and 14 meters in diameter. It's not the tallest Christmas tree in the world, but it's certainly a sight to behold.",
+            "FAO Schwarz is the real-life toy store that inspired Duncan's Toy Chest in the movie."
         ]
     },
     { 
@@ -221,7 +221,7 @@ const questions = [
         credit: "Gene Autry Rudolph the Red-Nosed Reindeer - Genius",
         message:[
             "In 1939, Robert L. May was asked by his boss at Montgomery Ward to write a 'cheery children's book' with an animal as titular character, having been inspired by Walt Disney's recently released short-film, Ferdinand the Bull",
-            "So while some might think it was Clement C. Moore who invented Rudolph along with the remaining 8 reindeers, it was in fact not the case"
+            "So while some might think Clement C. Moore invented Rudolph along with the other eight reindeer, that is not the case"
         ]
     },
     { 
@@ -232,9 +232,9 @@ const questions = [
         credit: "A Christmas Carol - Disney Wiki",
         message:[
             "As mentioned in question 19, Clement C. Moore is the author of the poem 'The Night Before Christmas'",
-            "Aside from famous works like 'Olivver Twist', 'A Tale of Two Cities', and 'Great Expectations', Charles Dickens is also the author of A Christmas Carol",
+            "Aside from famous works like 'Oliver Twist', 'A Tale of Two Cities', and 'Great Expectations', Charles Dickens is also the author of A Christmas Carol",
             "Lucy Maud Montgomery is the Canadian author behind 'Anne of Green Gables'. Though not quite Christmas-related, is a heart-warming read if you're in the mood for a change of pace this Christmas",
-            "J.D. Salinger is the author of the behind 'The Catcher in the Rye'. Not quite Christmas themed either, but the story does take place in December of 1949"
+            "J.D. Salinger is the author of 'The Catcher in the Rye'. Not quite Christmas themed either, but the story does take place in December of 1949"
         ]
     }
 ];
@@ -352,6 +352,7 @@ nextBtn.addEventListener("click", () => {
 
 // Start game
 showQuestion();
+
 
 
 
