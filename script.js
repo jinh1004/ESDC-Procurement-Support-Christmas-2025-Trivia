@@ -177,7 +177,7 @@ const questions = [
         message:[
             "Baba Yaga is a figure from Slavic folklore and is depicted as an old woman with a long nose and lives in a hut that stands on chicken legs. Her tale is not for the faint of heart",
             "Krampus is a horned, half-goat, half-demon creature who is the counter-part of Saint Nicholas",
-            "Minotaur is a mythical creature in Greek mythology with the head of a bull and the body of the man. nothing to do with Christmas",
+            "Minotaur is a mythical creature in Greek mythology with the head of a bull and the body of the man. Nothing to do with Christmas",
             "Christmas gnomes are popular in Scandinavian folklores as mischievous protectors of homes and farms that bring luck and gifts. They are generally nice though"
         ]
     },
@@ -352,5 +352,6 @@ nextBtn.addEventListener("click", () => {
 
 // Start game
 showQuestion();
+
 
 
