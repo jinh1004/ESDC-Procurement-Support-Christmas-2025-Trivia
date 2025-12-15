@@ -214,7 +214,7 @@ const questions = [
         ]
     },
     { 
-        question: "In the original poem 'A Visit from St. Nicholas' more commonly known by the name 'The Night Before Christmas, we are introduced to the reindeers that pull Santa's sleigh: Dasher, Dancer, Prancer, Vixen, Comet, Cupid, Donner, and Blitzen. The 9th reindeer we love today named Rudolph however, does not come from the same poem. Who is the creator?", 
+        question: "In the original poem 'A Visit from St. Nicholas' more commonly known by the name 'The Night Before Christmas', we are introduced to the reindeers that pull Santa's sleigh: Dasher, Dancer, Prancer, Vixen, Comet, Cupid, Donner, and Blitzen. The 9th reindeer we love today named Rudolph however, does not come from the same poem. Who is the creator?", 
         answers: ["Clement C. Moore, the author of the poem","Johnny Marks the songwriter behind 'Rudolf the Red-Nosed Reindeer'","Robert L. May, an author for Montgomery Ward department store","Frank Capra, the director of iconic Christmas movie 'It's a Wonderful Life'"], 
         correct: 2,
         image: "images/Rudolph.jpg",
@@ -232,7 +232,7 @@ const questions = [
         credit: "A Christmas Carol - Disney Wiki",
         message:[
             "As mentioned in question 19, Clement C. Moore is the author of the poem 'The Night Before Christmas'",
-            "Aside from famous works like Olivver Twist, A Tale of Two Cities, and Great Expectations, Charles Dickens is also the author of A Christmas Carol",
+            "Aside from famous works like 'Olivver Twist', 'A Tale of Two Cities', and 'Great Expectations', Charles Dickens is also the author of A Christmas Carol",
             "Lucy Maud Montgomery is the Canadian author behind 'Anne of Green Gables'. Though not quite Christmas-related, is a heart-warming read if you're in the mood for a change of pace this Christmas",
             "J.D. Salinger is the author of the behind 'The Catcher in the Rye'. Not quite Christmas themed either, but the story does take place in December of 1949"
         ]
@@ -352,6 +352,7 @@ nextBtn.addEventListener("click", () => {
 
 // Start game
 showQuestion();
+
 
 
 
